@@ -2,7 +2,7 @@ import talib as ta
 import yfinance as yf
 import matplotlib.pyplot as plt
 
-tick = yf.download('RCI', '2019-9-4','2021-9-4')
+tick = yf.download('TSLA', '2021-6-1','2021-9-4')
 
 plt.style.use('dark_background')
 
